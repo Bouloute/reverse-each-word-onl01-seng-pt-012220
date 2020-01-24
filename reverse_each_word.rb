@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   words.each{ |word|
      reversed_sentence.push( word.reverse())
   }
-  reversed_sentence.join()
+  reversed_sentence.join(" ")
 end
